@@ -52,6 +52,8 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .header-container {
   display: flex;
@@ -379,6 +381,7 @@ img {
 .project-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .project-item:nth-child(3n + 3) {
