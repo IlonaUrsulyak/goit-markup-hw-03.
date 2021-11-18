@@ -52,7 +52,6 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 .header-container {
@@ -252,6 +251,9 @@ img {
   margin-bottom: 50px;
 }
 
+.team-item-info {
+  padding: 60px 30px;
+}
 .team-list {
   display: flex;
 }
@@ -313,11 +315,11 @@ img {
 }
 
 .footer-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .footer-link {
   font-style: normal;
@@ -375,17 +377,21 @@ img {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
+  margin-top: 50px;
 }
 
 .project-item {
-  margin-right: 30px;
+  margin-right: 27px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 .project-item:nth-child(3n + 3) {
   margin-right: 0px;
+}
+
+.project-item-info {
+  padding: 24px 20px;
 }
 
 .project-title {
