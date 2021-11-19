@@ -252,7 +252,7 @@ img {
 }
 
 .team-item-info {
-  padding: 60px 30px;
+  padding: 30px;
 }
 .team-list {
   display: flex;
@@ -273,7 +273,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 
@@ -386,6 +386,9 @@ img {
   border: 1px solid #eeeeee;
 }
 
+.project-item:nth-child(n + 7) {
+  margin-bottom: 0px;
+}
 .project-item:nth-child(3n + 3) {
   margin-right: 0px;
 }
@@ -399,8 +402,6 @@ img {
   font-size: 18px;
   line-height: 2;
   color: var(--second-title-color);
-  margin-top: 20px;
-  margin-left: 24px;
 }
 
 .project-pretitle {
@@ -409,6 +410,4 @@ img {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-top: 4px;
-  margin-left: 24px;
-  padding-bottom: 20px;
 }
